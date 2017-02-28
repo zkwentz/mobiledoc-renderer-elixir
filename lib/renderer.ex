@@ -10,4 +10,8 @@ defmodule MobileDoc.Renderer do
     MobileDoc.Renderer_0_3.render(doc, cards, atoms)
   end
 
+  def render(doc = %{ "version" => "0.3.1" }, cards, atoms) do
+    MobileDoc.Renderer_0_3.render(doc, cards, atoms)
+  end
+
 end
